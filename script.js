@@ -5,6 +5,7 @@ window.onload = function () {
     var referrer_url = document.documentURI;
     let a = referrer_url.split('#')[referrer_url.split('#').length - 1];
     console.log('-----------');
+    console.log(id_1);
     let id_1 = document.getElementById(a);
     // console.log(id_1);
     id_1.querySelector('.section__active').classList.toggle('_active');
